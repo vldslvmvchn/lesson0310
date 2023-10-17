@@ -3,7 +3,6 @@ while True:
     value_operator = input("\nPlease choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/'\nYour answer ")
     value_int_1 = float
     value_int_2 = float
-    # calcul_next_action = input("Please choose an action: \n 1 'yes'\n 2 'no' ")
 
     while value_operator > "4" or value_operator == str:
 

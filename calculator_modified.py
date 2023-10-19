@@ -1,5 +1,6 @@
 while True:
 
+    result = None
     value_operator = input("\nPlease choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/'\nYour answer ")
     value_int_1 = float
     value_int_2 = float
@@ -13,7 +14,6 @@ while True:
         except NameError:
 
             pass
-
 
     if value_operator == "1":
 
@@ -173,3 +173,10 @@ while True:
         result = value_int_1 / value_int_2
 
     print(result)
+
+    print("\nChoose whether you want to continue :  \n 1 'yes'\n 2 'no'  ")
+    answer = input("Your option : ")
+    if answer == "2":
+        break
+    elif answer == "1":
+        continue
